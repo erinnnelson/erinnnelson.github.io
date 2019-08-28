@@ -177,7 +177,7 @@ a {
 }
 
 #about {
-  height: 200vh;
+  padding-bottom: 50px;
   background: #272525;
   background: linear-gradient(#3d3939, #2c2929, #252222, #212020);
 }
@@ -220,4 +220,17 @@ a {
   width: 50px;
   margin: 10px;
   user-select: none;
+}
+
+footer {
+  background: #212020;
+  padding-bottom: 10px;
+}
+
+#button-mail {
+  width: 50px;
+  cursor: pointer;
+}
+#button-mail:active {
+  opacity: .5;
 }

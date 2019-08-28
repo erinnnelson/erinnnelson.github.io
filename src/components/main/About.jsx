@@ -29,7 +29,7 @@ export default (props) => {
       </div>
       <div id='skills-container'> 
             <img className='img-skill' title='Git' src={git} alt='Git'/> 
-            <img className='img-skill' title='JavaScript' src={javascript } alt='JavaScript'/>
+            <img className='img-skill' title='JavaScript' src={javascript} alt='JavaScript'/>
             <img className='img-skill' title='PostgreSQL' src={postgresql} a lt='PostgreSQL'/>
             <img className='img-skill' title='Node' src={node} alt='Node'/> 
             <img className='img-skill' title='Slack' src={slack} alt='Sla ck'/>

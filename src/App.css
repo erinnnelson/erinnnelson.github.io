@@ -250,10 +250,38 @@ a {
   opacity: .5;
 }
 
-.img-skill {
+.img-skill-containers {
   width: 50px;
+  height: 50px;
   margin: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+.img-skills, .img-color-skills {
+  width: 50px;
   user-select: none;
+  position: absolute;
+}
+
+.img-color-skills{
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: .15s;
+  transition-timing-function: linear;
+}
+
+.img-color-skills:hover{
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: .15s;
+  transition-timing-function: linear;
+}
+.img-color-skills:active{
+  opacity: .5;
+  transition-property: opacity;
+  transition-duration: .01s;
+  transition-timing-function: linear;
 }
 
 footer {

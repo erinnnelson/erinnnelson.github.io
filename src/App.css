@@ -19,6 +19,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  user-select: none;
 
 }
 
@@ -160,6 +161,7 @@ a {
   transition-property: background-color, width, height;
   transition-duration: .15s;
   transition-timing-function: ease-in;
+  user-select: none;
 }
 
 .project-card-overlays:active {
@@ -205,6 +207,7 @@ a {
   border: 6px solid #928c8c;
   display: inline-block;
   margin-right: 10px;
+  user-select: none;
 }
 
 #about-text {
@@ -232,6 +235,7 @@ footer {
   width: 50px;
   cursor: pointer;
   margin-bottom: 50px;
+  user-select: none;
 }
 
 #button-mail:active {

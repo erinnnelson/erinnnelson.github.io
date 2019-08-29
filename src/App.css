@@ -67,6 +67,7 @@ a {
   background: #e74444;
   font-family: 'Maven Pro', sans-serif;
   position: relative;
+  height: 20vh;
 }
 
 #hero-section-container p {

@@ -34,6 +34,11 @@ a {
   color: white;
 }
 
+#home {
+  position: absolute;
+  top: 0;
+}
+
 .nav-buttons {
   display: inline-block;
   font-size: 20px;
@@ -232,10 +237,27 @@ footer {
 }
 
 #button-mail {
+  display: block;
   width: 50px;
+  height: 50px;
+  background: url(./assets/profile/mail.png);
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
   cursor: pointer;
-  margin-bottom: 50px;
+  margin: 0 auto 50px auto;
   user-select: none;
+  transition-property: filter;
+  transition-duration: .1s;
+  transition-timing-function: linear;
+}
+
+#button-mail:hover {
+  filter: drop-shadow(0px 0px 10px #efe6b9be);
+  transition-property: filter;
+  transition-duration: .1s;
+  transition-timing-function: linear;
+
+
 }
 
 #button-mail:active {

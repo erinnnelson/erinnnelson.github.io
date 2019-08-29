@@ -28,7 +28,7 @@ export default (props) => {
           <p id='about-text'>I am a creative and analytical Software Engineer with a background in technical solutions, digital marketing and media. I seek the opportunity to be both a self-starter and collaborative team-player at a data-driven organization that constantly seeks to improve.</p>
         </div>
       </div>
-      <a href='mailto:iamerinnnelson@gmail.com'><img id='button-mail' src={mail} alt='Click to mail'/></a>
+      <a href='mailto:iamerinnnelson@gmail.com' id='button-mail' title='iamerinnnelson@gmail.com' alt='Click to mail'></a>
       <div id='skills-container'> 
             <img className='img-skill' title='Git' src={git} alt='Git'/> 
             <img className='img-skill' title='JavaScript' src={javascript} alt='JavaScript'/>

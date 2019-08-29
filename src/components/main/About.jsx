@@ -16,6 +16,7 @@ import github from '../../assets/profile/github.png'
 import npm from '../../assets/profile/npm.png'
 import react from '../../assets/profile/react.png'
 import ruby from '../../assets/profile/ruby.png'
+import mail from '../../assets/profile/mail.png'
 
 
 export default (props) => {
@@ -27,6 +28,7 @@ export default (props) => {
           <p id='about-text'>I am a creative and analytical Software Engineer with a background in technical solutions, digital marketing and media. I seek the opportunity to be both a self-starter and collaborative team-player at a data-driven organization that constantly seeks to improve.</p>
         </div>
       </div>
+      <a href='mailto:iamerinnnelson@gmail.com'><img id='button-mail' src={mail} alt='Click to mail'/></a>
       <div id='skills-container'> 
             <img className='img-skill' title='Git' src={git} alt='Git'/> 
             <img className='img-skill' title='JavaScript' src={javascript} alt='JavaScript'/>

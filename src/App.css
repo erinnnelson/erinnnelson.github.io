@@ -177,13 +177,13 @@ a {
 }
 
 #about {
-  padding-bottom: 50px;
+  padding-bottom: 5px;
   background: #272525;
   background: linear-gradient(#3d3939, #2c2929, #252222, #212020);
 }
 
 #about-container-outer-div{
-  padding: 120px 0 30px 0;
+  padding: 120px 0 20px 0;
   margin: 0 auto;
 
 
@@ -210,9 +210,10 @@ a {
 #about-text {
   display: inline-block;
   width: 300px;
-  font-size: 18px;
+  font-size: 16px;
   margin: 0 0 0 10px;
   text-align: left;
+  font-family: 'Maven Pro', sans-serif;
 
 }
 
@@ -230,7 +231,9 @@ footer {
 #button-mail {
   width: 50px;
   cursor: pointer;
+  margin-bottom: 50px;
 }
+
 #button-mail:active {
   opacity: .5;
 }

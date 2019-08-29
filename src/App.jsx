@@ -4,6 +4,8 @@ import NavBar from './components/header/NavBar'
 import Portfolio from './components/main/Portfolio'
 import HeroSection from './components/main/HeroSection'
 import About from './components/main/About'
+import { ParallaxProvider } from 'react-scroll-parallax';
+import { Parallax } from 'react-scroll-parallax';
 
 
 class App extends React.Component {
@@ -15,21 +17,25 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div className="App">
-        <header>
-          <NavBar />
-        </header>
-        <main>
-          <HeroSection />
-          <Portfolio />
-          <About />
+      <ParallaxProvider>
+        <div className="App">
+          <header>
+            <NavBar />
+          </header>
+          <main>
+            <HeroSection />
+            <Parallax className='portfolio-paralax' y={[50, -150]} tagOuter="figure">
+              <Portfolio />
+            </Parallax>
+            <About />
 
-        </main>
-        <footer>
+          </main>
+          <footer>
 
 
-        </footer>
-      </div>
+          </footer>
+        </div>
+      </ParallaxProvider>
     );
   }
 }

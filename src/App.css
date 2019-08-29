@@ -191,10 +191,8 @@ a {
 }
 
 #about-container-outer-div{
-  padding: 120px 0 20px 0;
+  padding: 120px 0 80px 0;
   margin: 0 auto;
-
-
 }
 
 #about-container {
@@ -223,18 +221,6 @@ a {
   margin: 0 0 0 10px;
   text-align: left;
   font-family: 'Maven Pro', sans-serif;
-
-}
-
-.img-skill {
-  width: 50px;
-  margin: 10px;
-  user-select: none;
-}
-
-footer {
-  background: #212020;
-  padding-bottom: 130px;
 }
 
 #button-mail {
@@ -257,10 +243,19 @@ footer {
   transition-property: filter;
   transition-duration: .1s;
   transition-timing-function: linear;
-
-
 }
 
 #button-mail:active {
   opacity: .5;
+}
+
+.img-skill {
+  width: 50px;
+  margin: 10px;
+  user-select: none;
+}
+
+footer {
+  background: #212020;
+  padding-bottom: 70px;
 }

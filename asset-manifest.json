@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.f3d09f83.chunk.css",
+    "main.css": "/static/css/main.5c183a60.chunk.css",
     "main.js": "/static/js/main.cef5eb66.chunk.js",
     "main.js.map": "/static/js/main.cef5eb66.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.f6dce284.js",
@@ -8,9 +8,9 @@
     "static/js/2.56c773cf.chunk.js": "/static/js/2.56c773cf.chunk.js",
     "static/js/2.56c773cf.chunk.js.map": "/static/js/2.56c773cf.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ddcc90a5a86555ea61eb676bfacaf0c2.js": "/precache-manifest.ddcc90a5a86555ea61eb676bfacaf0c2.js",
+    "precache-manifest.3cfb384dc7c26cd78624506d70aa57bf.js": "/precache-manifest.3cfb384dc7c26cd78624506d70aa57bf.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.f3d09f83.chunk.css.map": "/static/css/main.f3d09f83.chunk.css.map",
+    "static/css/main.5c183a60.chunk.css.map": "/static/css/main.5c183a60.chunk.css.map",
     "static/media/amazon.png": "/static/media/amazon.2dcd6732.png",
     "static/media/amazon_color.png": "/static/media/amazon_color.2e923fba.png",
     "static/media/App.css": "/static/media/tackle.16fff584.jpg",
